@@ -35,10 +35,10 @@ class Utility():
 
 	@staticmethod
 	def getStopWords():
-		path = File.join(os.path.abspath(__file__ + "/../"), 'stopwords.txt')
+		path = File.join('/content/gdrive/My\ Drive/Colab\ Notebooks/packages/CWR/utility/', 'stopwords.txt')
 		file = File(path)
 		stopWords = re.split('[\n]', file.read())
-		path = File.join(os.path.abspath(__file__ + "/../"), 'customStopWords.txt')
+		path = File.join('/content/gdrive/My\ Drive/Colab\ Notebooks/packages/CWR/utility/', 'customStopWords.txt')
 		file = File(path)
 		customStopWords = re.split('[\n]', file.read())
 
