@@ -1,3 +1,5 @@
+name = 'lc'
+
 from .base import Base
 from .k3s import K3S
 from .peripheral import Peripheral
