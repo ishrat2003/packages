@@ -1,7 +1,7 @@
 import re, sys, numpy
 from nltk import word_tokenize, pos_tag
 from nltk.stem.porter import PorterStemmer
-import utility
+import CWR.utility as utility
 from . import Base
 
 class K3S(Base):

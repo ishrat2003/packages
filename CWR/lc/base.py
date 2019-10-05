@@ -1,7 +1,7 @@
 import re, sys, numpy
 from nltk import word_tokenize, pos_tag
 from nltk.stem.porter import PorterStemmer
-import utility
+import CWR.utility as utility
 from sklearn.cluster import KMeans
 import matplotlib as mpl
 import matplotlib.pyplot as plt
